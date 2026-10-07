@@ -8,7 +8,7 @@
 param(
     [Parameter(Mandatory)][string]$InstallerPath,
     [string]$Arguments = "/S",
-    [string]$LogFolder = "C:\Logs\silent-install"
+    [string]$LogFolder = "C:\Logs\powershell-toolkit"
 )
 
 $ErrorActionPreference = "Stop"
